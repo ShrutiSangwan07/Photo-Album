@@ -1,0 +1,48 @@
+# Photo Album Project
+
+This project is a simple photo album web application that displays images in a grid layout with pagination.
+
+## Prerequisites
+
+- PHP 7.0 or higher
+- Web server (e.g., Apache, Nginx)
+- Web browser
+
+## Installation
+
+1. Clone this repository or download the project files to your local machine.
+2. Place the project files in your web server's document root or a subdirectory.
+
+## Configuration
+
+1. Open the `index.php` file.
+2. Locate the `$imageDirectory` variable and set it to the path of your images folder:
+   ```php
+   $imageDirectory = 'path/to/your/images/';
+   ```
+3. Adjust the `$imagesPerPage` variable if you want to change the number of images displayed per page:
+   ```php
+   $imagesPerPage = 3; // Change this number as needed
+   ```
+
+## Running the Project
+
+1. Start your web server.
+2. Open a web browser and navigate to the project's URL (e.g., `http://localhost/photo-album/`).
+
+## Usage
+
+- Browse through the images using the 'Previous' and 'Next' buttons at the bottom of the page.
+- Click on an image to view it in full size.
+- Use the help button (?) in the top right corner for more information on how to use the photo album.
+
+## Files
+
+- `index.php`: Main PHP file that handles image loading and pagination
+- `style.css`: CSS file for styling the photo album
+- `script.js`: JavaScript file for interactive features
+
+## Customization
+
+You can customize the appearance of the photo album by modifying the `style.css` file.
+
